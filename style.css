@@ -58,6 +58,15 @@
 	width: 100%;
 	height: 100%;
 }
+.bosster .pics1{
+	width: 95%;
+	height: 45%;
+	/*background: blue;*/
+}
+.pics1 img{
+	width: 100%;
+	height: 100%;
+}
 .bosster .texts{
 	width: 100%;
 	height: 55%;
