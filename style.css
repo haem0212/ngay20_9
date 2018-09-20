@@ -11,4 +11,69 @@
 /* css của  linh */
 /* css của bảo */
 /* css của  phê */
+.container .article{
+	clear: both;
+	width: 1020px;
+	height: 500px;
+	background: #00FF7F;
+}
+.article .titles{
+	width: 100%;
+	height: 60px;
+	/*background: blue;*/
+}
+.titles h1{
+	text-align: center;
+	line-height: 60px;
+	font-size: 42px;
+	color: white;
+	font-family:cursive;
+}
+.article .boxx1{
+	margin: 0 auto;
+	width: 90%;
+	height: 210px;
+	/*background: yellow;*/
+	margin-bottom: 10px;
+}
+.boxx1 .bosster{
+	float: left;
+	width: 22.75%;
+	height: 100%;
+	/*background: red;*/
+}
+.diffs{
+	margin-right: 3%;
+	margin-left: 3%;
+}
+.diffs1{
+	margin-left: 3%;
+}
+.bosster .pics{
+	width: 100%;
+	height: 45%;
+	/*background: blue;*/
+}
+.pics img{
+	width: 100%;
+	height: 100%;
+}
+.bosster .texts{
+	width: 100%;
+	height: 55%;
+	/*background: green;*/
+}
+.texts h3{
+	text-align: center;
+	color: white;
+	text-transform: capitalize;
+	font-size: 22px;
+	padding-top: 10px;
+	line-height: 35px;
+}
+.texts p{
+	text-align: center;
+	color: white;
+	line-height: 20px;
+}
 /* css của  HàEm */
