@@ -8,6 +8,133 @@
 	margin: 0 auto;
 }
 /* css của  thành */
+.container .header{
+	width: 100%;
+	height: 400px;
+	background: #778899;
+}
+.header .menu{
+	width: 100%;
+	height: 100px;
+	background: #575c60;
+}
+.menu .logo{
+	width: 25%;
+	height: 100px;
+	background: white;
+	float: left;
+}
+.logo img{
+	width: 100%;
+	height: 95%;
+	margin-top: 5%;
+}
+.menu .headermenu{
+	float: left;
+	width: 75%;
+	height: 100px;
+}
+.headermenu ul{
+	display: block;
+	width: 100%;
+	height: 100px;
+}
+.headermenu ul li{
+	float: left;
+	width: auto;
+	height: 50px;
+	font-size: 22px;
+	list-style: none;
+	margin-left: 30px;
+	margin-top: 25px;
+	line-height: 50px;
+}
+.headermenu ul li a{
+	display: block;
+	width: 100%;
+	height: 50px;
+	text-decoration: none;
+	color: white;
+}
+.headermenu ul li.active{
+	background: yellow;
+	border-radius: 10px;
+	width: 15%;
+	text-align: center;
+}
+.headermenu ul li.active a:hover{
+	color: red;
+}
+.headermenu ul li:hover{
+	border-bottom: 3px solid black;
+}
+.headermenu ul li a:hover{
+	color: black;
+}
+.header .img{
+	width: 96%;
+	height: 300px;
+	background-image: url('https://image.theleader.vn/thumbs/788x0/upload/quocdung/2018/3/14/amazon-pic.png');
+	margin: 0 auto;
+}
+.img .icon img{
+	width: 50px;
+	height: 50px;
+	margin: 0;
+	padding: 0;
+}
+.icon1{
+	float: left;
+	margin-top: 100px;
+}
+.icon2{
+	float: right;
+	margin-top: 100px;
+}
+.icon1:hover{
+	background: #778899;
+}
+.icon2:hover{
+	background: #778899;
+}
+.img .title{
+	width: 50%;
+	height: 100px;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 70px;
+}
+.title h1{
+	width: 90%;
+	height: 70px;
+	color: yellow;
+	font-size: 50px;
+	background: #778899;
+	opacity: 0.6;
+	margin: 0 auto;
+}
+.title h2{
+	margin-top: 5px;
+	background: #778899;
+	opacity: 0.6;
+	width: 95%;
+	height: 40px;
+	font-size: 30px;
+	color: yellow;
+}
+.title h3{
+	width: 30%;
+	height: 50px;
+	background: blue;
+	margin: 0 auto;
+	margin-top: 40px;
+	line-height: 50px;
+	border-radius: 10px;
+}
+.title h3:hover{
+	color: red;
+	background: yellow;
+}
 /* css của  linh */
 /* css của bảo */
 /* css của  phê */
